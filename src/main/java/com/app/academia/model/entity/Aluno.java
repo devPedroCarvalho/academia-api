@@ -1,4 +1,4 @@
-package com.app.academia;
+package com.app.academia.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
