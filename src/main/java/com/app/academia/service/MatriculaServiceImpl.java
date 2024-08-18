@@ -7,7 +7,6 @@ import com.app.academia.repository.AlunoRepository;
 import com.app.academia.repository.MatriculaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
@@ -42,7 +41,6 @@ public class MatriculaServiceImpl implements IMatriculaService {
         }else{
             return matriculaRepository.findAlunosMatriculadosBairro(bairro);
         }
-
     }
 
     @Override

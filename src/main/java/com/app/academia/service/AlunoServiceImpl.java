@@ -6,7 +6,6 @@ import com.app.academia.model.dto.AlunoUpdateForm;
 import com.app.academia.repository.AlunoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -54,17 +53,4 @@ public class AlunoServiceImpl implements IAlunoService {
     @Override
     public void delete(Long id) {
     }
-
-    /*
-    @Override
-    public List<AvaliacaoFisica> getAllAvaliacaoFisicaId(Long id) {
-
-        Aluno aluno = repository.findById(id).get();
-
-        return aluno.getAvaliacoes();
-
-    }
-
-     */
-
 }

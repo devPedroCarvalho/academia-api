@@ -2,7 +2,6 @@ package com.app.academia.service;
 
 import com.app.academia.model.dto.MatriculaForm;
 import com.app.academia.model.entity.Matricula;
-
 import java.util.List;
 
 public interface IMatriculaService {

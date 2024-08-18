@@ -6,8 +6,6 @@ import com.app.academia.service.IAlunoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import jakarta.validation.Valid;
-
-
 import java.util.List;
 
 @RestController
@@ -27,17 +25,4 @@ public class AlunoController {
             @RequestParam(value = "dataDeNascimento", required = false) String dataDeNacimento){
         return service.getAll(dataDeNacimento);
     }
-
-    /*
-    @GetMapping("/avaliacoes/{id}")
-    public List<AvaliacaoFisica> getAllAvaliacaoFisicaId(@PathVariable Long id) {
-        return service.getAllAvaliacaoFisicaId(id);
-    }
-
-
-
-
-     */
-
-
 }
